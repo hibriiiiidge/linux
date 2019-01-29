@@ -1,6 +1,6 @@
 # linuxのしくみ
 
-## Docker image を buikd する
+## Docker image を build する
 
 ```
 $ docker build -t ubuntu:linux_practice .
