@@ -20,13 +20,13 @@ $ docker run -it --security-opt seccomp:unconfined -p 8081:8080 -v ~/linux_struc
 ## 止まっているコンテナを再起動させる
 
 ```
-$ docker start #{ image name }
+$ docker start #{image name}
 ``` 
 
 ## コンテナに入る
 
 ```
-$ docker attach #{ image name}
+$ docker attach #{image name}
 ```
 
 ## その他の Docker コマンド
@@ -34,13 +34,13 @@ $ docker attach #{ image name}
 ### 再起動とコンテナに入るのを同時に実行 (不安定)
 
 ```
-$ docker start -a #{ image name }
+$ docker start -a #{image name}
 ```
 
 ### コンテナ削除
 
 ```
-$ docker rm #{ container id }
+$ docker rm #{container id}
 ```
 
 ### イメージ一覧
@@ -52,11 +52,11 @@ $ docker images
 ### イメージ削除
 
 ```
-$ docker rmi #{ image id }
+$ docker rmi #{image id}
 ```
 
 ### イメージ強制削除
 
 ```
-$ docker rmi #{ image name }:#{ tag name }
+$ docker rmi #{image name}:#{tag name}
 ```
